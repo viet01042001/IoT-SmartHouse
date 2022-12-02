@@ -1,5 +1,4 @@
-import { StyleSheet, Text, View, Switch, Dimensions, Button} from 'react-native';
-import { useState } from 'react';
+import { StyleSheet, Text, View, Dimensions} from 'react-native';
 
 import Light_Ngoaihien from './Buttons/Light_Ngoaihien';
 import Light_Phongkhach from './Buttons/Light_Phongkhach';
@@ -50,7 +49,6 @@ export default function LightsControl() {
                 <Light_Bep1/>
             <Light_Kho/>
                 <Light_Nhatam/>
-            
             
         </View>
     )

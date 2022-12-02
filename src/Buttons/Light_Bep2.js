@@ -1,10 +1,13 @@
 import { StyleSheet, Text, View, Switch, Dimensions, Button} from 'react-native';
 import { useState } from 'react';
 
+import { TouchableOpacity } from 'react-native';
+
+
 const addr_bep2 = "https://iot-smarthouse-f7531-default-rtdb.asia-southeast1.firebasedatabase.app/nhaduoi.json"
 
-const BACKGROUND_COLOR_LIGHT_OFF = '#4d4d4d'
-const BACKGROUND_COLOR_LIGHT_ON = '#d3e805'
+const BACKGROUND_COLOR_LIGHT_OFF = '#000000'
+const BACKGROUND_COLOR_LIGHT_ON = '#FF7000'
 
 const on_bep2 = async () => {
     const responseBep2 = await fetch(addr_bep2,

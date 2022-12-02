@@ -3,8 +3,8 @@ import { useState } from 'react';
 
 const addr_san3 = "https://iot-smarthouse-f7531-default-rtdb.asia-southeast1.firebasedatabase.app/ngoaisan.json"
 
-const BACKGROUND_COLOR_LIGHT_OFF = '#4d4d4d'
-const BACKGROUND_COLOR_LIGHT_ON = '#d3e805'
+const BACKGROUND_COLOR_LIGHT_OFF = '#000000'
+const BACKGROUND_COLOR_LIGHT_ON = '#FF7000'
 
 const on_san3 = async () => {
     const responseSan3 = await fetch(addr_san3,

@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 const addr_bep1 = "https://iot-smarthouse-f7531-default-rtdb.asia-southeast1.firebasedatabase.app/nhaduoi.json"
 
-const BACKGROUND_COLOR_LIGHT_OFF = '#4d4d4d'
-const BACKGROUND_COLOR_LIGHT_ON = '#d3e805'
+const BACKGROUND_COLOR_LIGHT_OFF = '#000000'
+const BACKGROUND_COLOR_LIGHT_ON = '#FF7000'
 
 const on_bep1 = async () => {
     const responseBep1 = await fetch(addr_bep1,
