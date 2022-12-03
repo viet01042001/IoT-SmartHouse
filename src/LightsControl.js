@@ -19,36 +19,35 @@ export default function LightsControl() {
     return(
         <View style={styles.container}>
 
-            <View style={styles.place}>
-                <Text style={styles.textplace}> NHÀ TRÊN </Text>
-            </View>
-
-            <View style={styles.place}>
-                <Text style={styles.textplace}> NGOÀI SÂN </Text>
-            </View>
+                <View style={styles.place}>
+                    <Text style={styles.textplace}> NHÀ TRÊN </Text>
+                </View>
+                <View style={styles.place}>
+                    <Text style={styles.textplace}> NGOÀI SÂN </Text>
+                </View>
             
             <Light_Ngoaihien/>
-                <Light_San4/>
+            <Light_San4/>
             <Light_Phongkhach/>
-                <Light_San3/>
+            <Light_San3/>
             <Light_Phongngu1/>
-                <Light_San2/>
+            <Light_San2/>
             <Light_Phongngu2/>
-                <Light_San1/>
+            <Light_San1/>
             <Light_Phongtulanh/>
+
                 <View style={styles.nonbox}>
                     <Text>  </Text>
                 </View>
-            
-            <View style={styles.place}>
-                <Text style={styles.textplace}> NHÀ DƯỚI </Text>
-            </View>
-            <View style={styles.place}></View>
+                <View style={styles.place}>
+                    <Text style={styles.textplace}> NHÀ DƯỚI </Text>
+                </View>
+                <View style={styles.place}></View>
 
             <Light_Bep2/>
-                <Light_Bep1/>
+            <Light_Bep1/>
             <Light_Kho/>
-                <Light_Nhatam/>
+            <Light_Nhatam/>
             
         </View>
     )
